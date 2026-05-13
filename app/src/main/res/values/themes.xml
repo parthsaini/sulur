@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/military_green</item>
+        <item name="colorPrimaryDark">@color/military_green_dark</item>
+        <item name="colorAccent">@color/military_green</item>
+    </style>
+</resources>
