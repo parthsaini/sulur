@@ -8,6 +8,8 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
 
+public class MainActivity extends AppCompatActivity {
+
     private FeedbackDbHelper dbHelper;
     private EditText editName, editPhone, editComments;
     private RatingBar ratingFood, ratingService, ratingCleanliness, ratingValue;
