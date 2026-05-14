@@ -45,6 +45,7 @@
                 android:textSize="16sp"
                 android:textColor="#C8E6C9"
                 android:fontFamily="serif"
+                android:textStyle="italic"
                 android:gravity="center" />
         </LinearLayout>
 
