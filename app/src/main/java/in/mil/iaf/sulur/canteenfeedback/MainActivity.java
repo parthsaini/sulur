@@ -1,5 +1,6 @@
 package in.mil.iaf.sulur.canteenfeedback;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.RatingBar;
@@ -35,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
         MaterialButton btnSubmit = findViewById(R.id.btnSubmit);
         btnSubmit.setOnClickListener(v -> submitFeedback());
+
+        findViewById(R.id.txtHeader).setOnLongClickListener(v -> {
+            startActivity(new Intent(this, AdminActivity.class));
+            return true;
+        });
     }
 
     private void submitFeedback() {
