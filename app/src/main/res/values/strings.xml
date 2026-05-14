@@ -2,13 +2,16 @@
 <resources>
     <string name="app_name">43 Wg Canteen Feedback</string>
     <string name="header_title">43 Wing Sulur\nMilitary Shopping Complex</string>
-    <string name="header_subtitle">Canteen Customer Feedback</string>
+    <string name="header_subtitle">Tell us how we did today</string>
     <string name="hint_name">Name *</string>
     <string name="hint_phone">Phone Number</string>
-    <string name="hint_comments">Additional Comments</string>
-    <string name="label_food_quality">Food Quality</string>
-    <string name="label_service">Service</string>
-    <string name="label_cleanliness">Cleanliness</string>
-    <string name="label_value_for_money">Value for Money</string>
+    <string name="label_overall">Overall Experience</string>
+    <string name="label_atmosphere">Store Atmosphere and Cleanliness</string>
+    <string name="label_staff">Interaction with the Staff</string>
+    <string name="label_availability">Product Availability and Selection</string>
+    <string name="label_quality">Product Quality</string>
+    <string name="label_billing">Billing and Checkout Experience</string>
+    <string name="label_location">Convenience of Store Location</string>
+    <string name="hint_comments">Do you have any other feedback?</string>
     <string name="btn_submit">Submit Feedback</string>
 </resources>

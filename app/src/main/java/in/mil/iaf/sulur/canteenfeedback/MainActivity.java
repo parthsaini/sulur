@@ -12,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
 
     private FeedbackDbHelper dbHelper;
     private EditText editName, editPhone, editComments;
-    private RatingBar ratingFood, ratingService, ratingCleanliness, ratingValue;
+    private RatingBar ratingOverall, ratingAtmosphere, ratingStaff,
+            ratingAvailability, ratingQuality, ratingBilling, ratingLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,10 +25,13 @@ public class MainActivity extends AppCompatActivity {
         editName = findViewById(R.id.editName);
         editPhone = findViewById(R.id.editPhone);
         editComments = findViewById(R.id.editComments);
-        ratingFood = findViewById(R.id.ratingFood);
-        ratingService = findViewById(R.id.ratingService);
-        ratingCleanliness = findViewById(R.id.ratingCleanliness);
-        ratingValue = findViewById(R.id.ratingValue);
+        ratingOverall = findViewById(R.id.ratingOverall);
+        ratingAtmosphere = findViewById(R.id.ratingAtmosphere);
+        ratingStaff = findViewById(R.id.ratingStaff);
+        ratingAvailability = findViewById(R.id.ratingAvailability);
+        ratingQuality = findViewById(R.id.ratingQuality);
+        ratingBilling = findViewById(R.id.ratingBilling);
+        ratingLocation = findViewById(R.id.ratingLocation);
 
         MaterialButton btnSubmit = findViewById(R.id.btnSubmit);
         btnSubmit.setOnClickListener(v -> submitFeedback());
@@ -43,19 +47,25 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        int food = (int) ratingFood.getRating();
-        int service = (int) ratingService.getRating();
-        int cleanliness = (int) ratingCleanliness.getRating();
-        int value = (int) ratingValue.getRating();
+        int overall = (int) ratingOverall.getRating();
+        int atmosphere = (int) ratingAtmosphere.getRating();
+        int staff = (int) ratingStaff.getRating();
+        int availability = (int) ratingAvailability.getRating();
+        int quality = (int) ratingQuality.getRating();
+        int billing = (int) ratingBilling.getRating();
+        int location = (int) ratingLocation.getRating();
 
-        dbHelper.insertFeedback(name, phone, food, service, cleanliness, value, comments);
+        dbHelper.insertFeedback(name, phone, overall, atmosphere, staff,
+                availability, quality, billing, location, comments);
 
         String summary = "Thank you, " + name + "!\n\n" +
-                "Food Quality: " + food + "/5\n" +
-                "Service: " + service + "/5\n" +
-                "Cleanliness: " + cleanliness + "/5\n" +
-                "Value for Money: " + value + "/5\n" +
-                (comments.isEmpty() ? "" : "\nComments: " + comments);
+                "Overall: " + overall + "/5\n" +
+                "Atmosphere: " + atmosphere + "/5\n" +
+                "Staff: " + staff + "/5\n" +
+                "Availability: " + availability + "/5\n" +
+                "Quality: " + quality + "/5\n" +
+                "Billing: " + billing + "/5\n" +
+                "Location: " + location + "/5";
 
         new AlertDialog.Builder(this)
                 .setTitle("Feedback Submitted")
@@ -68,10 +78,13 @@ public class MainActivity extends AppCompatActivity {
         editName.setText("");
         editPhone.setText("");
         editComments.setText("");
-        ratingFood.setRating(0);
-        ratingService.setRating(0);
-        ratingCleanliness.setRating(0);
-        ratingValue.setRating(0);
+        ratingOverall.setRating(0);
+        ratingAtmosphere.setRating(0);
+        ratingStaff.setRating(0);
+        ratingAvailability.setRating(0);
+        ratingQuality.setRating(0);
+        ratingBilling.setRating(0);
+        ratingLocation.setRating(0);
         Toast.makeText(this, "Feedback recorded. Jai Hind!", Toast.LENGTH_SHORT).show();
     }
 }
