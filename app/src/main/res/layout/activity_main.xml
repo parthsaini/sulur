@@ -26,9 +26,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/header_title"
-                android:textSize="20sp"
+                android:textSize="22sp"
                 android:textStyle="bold"
                 android:textColor="#1B5E20"
+                android:fontFamily="serif"
                 android:gravity="center" />
 
             <TextView
@@ -37,6 +38,7 @@
                 android:text="@string/header_subtitle"
                 android:textSize="15sp"
                 android:textColor="#555555"
+                android:fontFamily="serif"
                 android:gravity="center"
                 android:layout_marginTop="8dp" />
         </LinearLayout>
@@ -90,7 +92,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_overall"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:fontFamily="serif" />
             <RatingBar
                 android:id="@+id/ratingOverall"
                 android:layout_width="wrap_content"
@@ -105,7 +108,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_atmosphere"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:fontFamily="serif" />
             <RatingBar
                 android:id="@+id/ratingAtmosphere"
                 android:layout_width="wrap_content"
@@ -120,7 +124,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_staff"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:fontFamily="serif" />
             <RatingBar
                 android:id="@+id/ratingStaff"
                 android:layout_width="wrap_content"
@@ -135,7 +140,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_availability"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:fontFamily="serif" />
             <RatingBar
                 android:id="@+id/ratingAvailability"
                 android:layout_width="wrap_content"
@@ -150,7 +156,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_quality"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:fontFamily="serif" />
             <RatingBar
                 android:id="@+id/ratingQuality"
                 android:layout_width="wrap_content"
@@ -165,7 +172,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_billing"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:fontFamily="serif" />
             <RatingBar
                 android:id="@+id/ratingBilling"
                 android:layout_width="wrap_content"
@@ -180,7 +188,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_location"
                 android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:fontFamily="serif" />
             <RatingBar
                 android:id="@+id/ratingLocation"
                 android:layout_width="wrap_content"

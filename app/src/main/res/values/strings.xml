@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">43 Wg Canteen Feedback</string>
-    <string name="header_title">43 Wing Sulur\nMilitary Shopping Complex</string>
+    <string name="header_title">43 Wg Vayumart</string>
     <string name="header_subtitle">Tell us how we did today</string>
     <string name="hint_name">Name *</string>
     <string name="hint_phone">Phone Number</string>
