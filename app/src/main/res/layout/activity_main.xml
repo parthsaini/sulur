@@ -26,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/header_title"
-                android:textSize="22sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="#1B5E20"
                 android:fontFamily="serif"
@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/header_subtitle"
-                android:textSize="15sp"
+                android:textSize="17sp"
                 android:textColor="#555555"
                 android:fontFamily="serif"
                 android:gravity="center"
@@ -91,7 +91,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_overall"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 android:fontFamily="serif" />
             <RatingBar
@@ -107,7 +107,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_atmosphere"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 android:fontFamily="serif" />
             <RatingBar
@@ -123,7 +123,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_staff"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 android:fontFamily="serif" />
             <RatingBar
@@ -139,7 +139,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_availability"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 android:fontFamily="serif" />
             <RatingBar
@@ -155,7 +155,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_quality"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 android:fontFamily="serif" />
             <RatingBar
@@ -171,7 +171,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_billing"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 android:fontFamily="serif" />
             <RatingBar
@@ -187,7 +187,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/label_location"
-                android:textSize="14sp"
+                android:textSize="17sp"
                 android:textStyle="bold"
                 android:fontFamily="serif" />
             <RatingBar
@@ -229,7 +229,7 @@
             android:layout_height="wrap_content"
             android:text="@string/btn_submit"
             android:backgroundTint="#1B5E20"
-            android:textSize="16sp"
+            android:textSize="18sp"
             android:padding="12dp" />
 
     </LinearLayout>
